@@ -1,0 +1,202 @@
+/* Google fonts */
+@import url("https://fonts.googleapis.com/css2?family=Agbalumo&family=Akaya+Telivigala&family=Aladin&family=Alata&family=Alegreya:ital,wght@0,400..900;1,400..900&family=Almendra:ital,wght@0,400;0,700;1,400;1,700&family=Be+Vietnam+Pro:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Josefin+Slab:ital,wght@0,100..700;1,100..700&family=Kenia&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Libre+Bodoni:ital,wght@0,400..700;1,400..700&family=Playball&family=Poltawski+Nowy:ital,wght@0,400..700;1,400..700&family=Satisfy&family=Sofia&family=Sorts+Mill+Goudy:ital@0;1&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+
+.alegreya-bold {
+  font-family: "Alegreya", serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.sorts-normal {
+  font-family: "Sorts Mill Goudy", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.alata-normal {
+  font-family: "Alata", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.kenia-normal {
+  font-family: "Kenia", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.josefin-bold {
+  font-family: "Josefin Slab", serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.sofia-regular {
+  font-family: "Sofia", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.agbalumo-normal {
+  font-family: "Agbalumo", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.akaya-normal {
+  font-family: "Akaya Telivigala", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.be-normal {
+  font-family: "Be Vietnam Pro", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.be-semi {
+  font-family: "Be Vietnam Pro", serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.be-bold {
+  font-family: "Be Vietnam Pro", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.work-normal {
+  font-family: "Work Sans", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.aladin-normal {
+  font-family: "Aladin", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.playball-normal {
+  font-family: "Playball", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.poltawski-normal {
+  font-family: "Poltawski Nowy", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.poltawski-bold {
+  font-family: "Poltawski Nowy", serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.lato-normal {
+  font-family: "Lato", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.lato-bold {
+  font-family: "Lato", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.libre-normal {
+  font-family: "Libre Bodoni", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.satisfy-normal {
+  font-family: "Satisfy", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.almendra-normal {
+  font-family: "Almendra", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* Tailwind Initialization */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Body Styles */
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+/* Scrollbar Style */
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: #f6ebd8;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #e2bc7d;
+  border-radius: 6px;
+}
+
+/* Carousel dots Style */
+.dashed-shadow-right:hover {
+  position: relative;
+  z-index: 1;
+  background: #ca0000;
+  width: auto;
+  height: auto;
+  overflow: visible;
+}
+
+.dashed-shadow-right::after {
+  content: "";
+  position: absolute;
+  top: -2px;
+  right: -2px;
+  bottom: -2px;
+  left: -2px;
+  border: 2px dashed black;
+  border-radius: 4px;
+  transform: translate(2px, 2px);
+  z-index: -1;
+  transition: transform 0.2s ease;
+}
+
+.dashed-shadow-right:hover::after {
+  transform: translate(4px, 4px);
+}
+
+.slick-dots li.slick-active div {
+  background-color: #e2bc7d !important;
+  transform: scale(1.1);
+  transition: all 0.3s ease-in-out;
+}
