@@ -4,7 +4,7 @@ import Facebook from "../assets/fb.svg";
 import X from "../assets/x.svg";
 import Instagram from "../assets/instagram.svg";
 import Youtube from "../assets/youtube.svg";
-import { Button } from "@nextui-org/react";
+import { Button } from "@heroui/react";
 
 const Footer = () => {
   return (
@@ -15,39 +15,39 @@ const Footer = () => {
           <div className="w-[260px] flex flex-col justify-start items-start gap-y-3">
             <img src={Logo} alt="Eco Coco Products" className="w-[56px] mb-4" />
             <p className="text-[14px]">
-              Copyright © 2025 Eco Coco Products. <br />
+              Copyright ©{new Date().getFullYear()} Eco Coco Products. <br />
               All Rights Reserved
             </p>
             <div className="flex gap-3 mt-4">
-              <span className="w-[28px] h-[28px] flex justify-center items-center rounded-full bg-[3C474C]">
+              <span className="w-[28px] h-[28px] flex justify-center items-center rounded-full bg-[#3C474C]">
                 <img
                   src={Whatsapp}
                   alt="Whatsapp"
                   className="w-[15px] h-[15px] cursor-pointer hover:opacity-80"
                 />
               </span>
-              <span className="w-[28px] h-[28px] flex justify-center items-center rounded-full bg-[3C474C]">
+              <span className="w-[28px] h-[28px] flex justify-center items-center rounded-full bg-[#3C474C]">
                 <img
                   src={Facebook}
                   alt="Facebook"
                   className="w-[15px] h-[15px] cursor-pointer hover:opacity-80"
                 />
               </span>
-              <span className="w-[28px] h-[28px] flex justify-center items-center rounded-full bg-[3C474C]">
+              <span className="w-[28px] h-[28px] flex justify-center items-center rounded-full bg-[#3C474C]">
                 <img
                   src={X}
                   alt="X"
                   className="w-[14px] h-[14px] ml-[1.5px] cursor-pointer hover:opacity-80"
                 />
               </span>
-              <span className="w-[28px] h-[28px] flex justify-center items-center rounded-full bg-[3C474C]">
+              <span className="w-[28px] h-[28px] flex justify-center items-center rounded-full bg-[#3C474C]">
                 <img
                   src={Instagram}
                   alt="Instagram"
                   className="w-[15px] h-[15px] cursor-pointer hover:opacity-80"
                 />
               </span>
-              <span className="w-[28px] h-[28px] flex justify-center items-center rounded-full bg-[3C474C]">
+              <span className="w-[28px] h-[28px] flex justify-center items-center rounded-full bg-[#3C474C]">
                 <img
                   src={Youtube}
                   alt="Youtube"
@@ -85,7 +85,7 @@ const Footer = () => {
           </div>
 
           {/* Products */}
-          <div>
+          <div className="ml-2">
             <h3 className="font-semibold text-lg">Products</h3>
             <ul className="mt-4 space-y-2">
               <li>
@@ -152,7 +152,7 @@ const Footer = () => {
                 placeholder="Email"
                 className="w-[290px] h-[43px] bg-black border border-[E2BC7D] text-[9E9E9E] px-3 py-2 rounded-[6px] outline-none"
               />
-              <Button className="w-[84px] h-[30px] bg-[E2BC7D] text-white font-semibold rounded-[6px]">
+              <Button className="w-[84px] h-[30px] bg-[#E2BC7D] text-white be-bold text-[14px] rounded-[6px]">
                 Send
               </Button>
             </div>

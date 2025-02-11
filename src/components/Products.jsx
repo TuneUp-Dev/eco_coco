@@ -14,7 +14,7 @@ import Img13 from "../assets/13.svg";
 
 import Shadow from "../assets/dashed_shadow.svg";
 import Arrow from "../assets/arrow.svg";
-import { Button } from "@nextui-org/react";
+import { Button } from "@heroui/react";
 
 const Products = () => {
   return (
