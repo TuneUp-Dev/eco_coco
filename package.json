@@ -19,7 +19,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build",
+    "build": "npm install --legacy-peer-deps && react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
@@ -51,6 +51,6 @@
     "@types/react-slick": "^0.23.13",
     "@types/styled-components": "^5.1.34",
     "@types/testing-library__react": "^10.0.1",
-    "typescript": "^5.1.6"
+    "typescript": "^4.9.5"
   }
 }
