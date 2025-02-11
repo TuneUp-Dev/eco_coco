@@ -1,9 +1,9 @@
-import { Button } from "@nextui-org/react";
+import { Button } from "@heroui/react";
 import Logo from "../assets/Logo.svg";
 import Search from "../assets/search.svg";
 
 const Navbar = () => {
-  const scrollToSection = (id: string) => {
+  const scrollToSection = (id) => {
     const element = document.getElementById(id);
     if (element) {
       element.scrollIntoView({ behavior: "smooth", block: "start" });
