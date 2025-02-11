@@ -5,7 +5,7 @@ import Compost from "../assets/46.svg";
 import Fiber from "../assets/50.svg";
 import Yarn from "../assets/51.svg";
 import Arrow from "../assets/arrow.svg";
-import { Button } from "@nextui-org/react";
+import { Button } from "@heroui/react";
 
 const Product = () => {
   return (

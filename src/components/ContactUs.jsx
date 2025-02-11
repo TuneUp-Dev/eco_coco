@@ -1,4 +1,4 @@
-import { Button } from "@nextui-org/react";
+import { Button } from "@heroui/react";
 import Call from "../assets/call.svg";
 import Mail from "../assets/mail.svg";
 import Office from "../assets/office.svg";
@@ -80,7 +80,7 @@ const ContactUs = () => {
           </div>
 
           {/* Contact Form */}
-          <div className="mt-4 w-full max-w-lg">
+          <div className="-mt-2 w-full max-w-lg">
             <h3 className="text-[16px] font-medium text-[#111D15]">
               Contact info
             </h3>
@@ -109,7 +109,7 @@ const ContactUs = () => {
                 rows={4}
               />
 
-              <Button className="w-[155px] h-[42px] rounded-[6px] bg-[#E2BC7D] text-white font-medium hover:bg-[#c9a05f] transition">
+              <Button className="w-[155px] h-[42px] rounded-[6px] bg-[#E2BC7D] text-white font-medium transition">
                 Send Message
               </Button>
             </form>

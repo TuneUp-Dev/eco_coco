@@ -1,4 +1,4 @@
-import { Button } from "@nextui-org/react";
+import { Button } from "@heroui/react";
 import Tree from "../assets/Tree.svg";
 import Arrow from "../assets/arrow.svg";
 import Arrow_Point from "../assets/t_arrow.svg";
