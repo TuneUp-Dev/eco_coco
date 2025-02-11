@@ -19,35 +19,35 @@ const Footer = () => {
               All Rights Reserved
             </p>
             <div className="flex gap-3 mt-4">
-              <span className="w-[28px] h-[28px] flex justify-center items-center rounded-full bg-[#3C474C]">
+              <span className="w-[28px] h-[28px] flex justify-center items-center rounded-full bg-[3C474C]">
                 <img
                   src={Whatsapp}
                   alt="Whatsapp"
                   className="w-[15px] h-[15px] cursor-pointer hover:opacity-80"
                 />
               </span>
-              <span className="w-[28px] h-[28px] flex justify-center items-center rounded-full bg-[#3C474C]">
+              <span className="w-[28px] h-[28px] flex justify-center items-center rounded-full bg-[3C474C]">
                 <img
                   src={Facebook}
                   alt="Facebook"
                   className="w-[15px] h-[15px] cursor-pointer hover:opacity-80"
                 />
               </span>
-              <span className="w-[28px] h-[28px] flex justify-center items-center rounded-full bg-[#3C474C]">
+              <span className="w-[28px] h-[28px] flex justify-center items-center rounded-full bg-[3C474C]">
                 <img
                   src={X}
                   alt="X"
                   className="w-[14px] h-[14px] ml-[1.5px] cursor-pointer hover:opacity-80"
                 />
               </span>
-              <span className="w-[28px] h-[28px] flex justify-center items-center rounded-full bg-[#3C474C]">
+              <span className="w-[28px] h-[28px] flex justify-center items-center rounded-full bg-[3C474C]">
                 <img
                   src={Instagram}
                   alt="Instagram"
                   className="w-[15px] h-[15px] cursor-pointer hover:opacity-80"
                 />
               </span>
-              <span className="w-[28px] h-[28px] flex justify-center items-center rounded-full bg-[#3C474C]">
+              <span className="w-[28px] h-[28px] flex justify-center items-center rounded-full bg-[3C474C]">
                 <img
                   src={Youtube}
                   alt="Youtube"
@@ -62,22 +62,22 @@ const Footer = () => {
             <h3 className="font-semibold text-lg">Explore</h3>
             <ul className="mt-4 space-y-2">
               <li>
-                <a href="#" className="text-white hover:text-neutral-300">
+                <a href="/" className="text-white hover:text-neutral-300">
                   About Us
                 </a>
               </li>
               <li>
-                <a href="#" className="text-white hover:text-neutral-300">
+                <a href="/" className="text-white hover:text-neutral-300">
                   Products
                 </a>
               </li>
               <li>
-                <a href="#" className="text-white hover:text-neutral-300">
+                <a href="/" className="text-white hover:text-neutral-300">
                   Testimonial
                 </a>
               </li>
               <li>
-                <a href="#" className="text-white hover:text-neutral-300">
+                <a href="/" className="text-white hover:text-neutral-300">
                   FAQ
                 </a>
               </li>
@@ -89,27 +89,27 @@ const Footer = () => {
             <h3 className="font-semibold text-lg">Products</h3>
             <ul className="mt-4 space-y-2">
               <li>
-                <a href="#" className="text-white hover:text-neutral-300">
+                <a href="/" className="text-white hover:text-neutral-300">
                   Coir Pith
                 </a>
               </li>
               <li>
-                <a href="#" className="text-white hover:text-neutral-300">
+                <a href="/" className="text-white hover:text-neutral-300">
                   Pith Block
                 </a>
               </li>
               <li>
-                <a href="#" className="text-white hover:text-neutral-300">
+                <a href="/" className="text-white hover:text-neutral-300">
                   Pith Compost
                 </a>
               </li>
               <li>
-                <a href="#" className="text-white hover:text-neutral-300">
+                <a href="/" className="text-white hover:text-neutral-300">
                   Coir Fiber Bale
                 </a>
               </li>
               <li>
-                <a href="#" className="text-white hover:text-neutral-300">
+                <a href="/" className="text-white hover:text-neutral-300">
                   More...
                 </a>
               </li>
@@ -121,22 +121,22 @@ const Footer = () => {
             <h3 className="font-semibold text-lg">Blogs</h3>
             <ul className="mt-4 space-y-2">
               <li>
-                <a href="#" className="text-white hover:text-neutral-300">
+                <a href="/" className="text-white hover:text-neutral-300">
                   The Future of Coir
                 </a>
               </li>
               <li>
-                <a href="#" className="text-white hover:text-neutral-300">
+                <a href="/" className="text-white hover:text-neutral-300">
                   Eco-Friendly Farming
                 </a>
               </li>
               <li>
-                <a href="#" className="text-white hover:text-neutral-300">
+                <a href="/" className="text-white hover:text-neutral-300">
                   Coir-Based Products
                 </a>
               </li>
               <li>
-                <a href="#" className="text-white hover:text-neutral-300">
+                <a href="/" className="text-white hover:text-neutral-300">
                   More...
                 </a>
               </li>
@@ -150,9 +150,9 @@ const Footer = () => {
               <input
                 type="email"
                 placeholder="Email"
-                className="w-[290px] h-[43px] bg-black border border-[#E2BC7D] text-[#9E9E9E] px-3 py-2 rounded-[6px] outline-none"
+                className="w-[290px] h-[43px] bg-black border border-[E2BC7D] text-[9E9E9E] px-3 py-2 rounded-[6px] outline-none"
               />
-              <Button className="w-[84px] h-[30px] bg-[#E2BC7D] text-white font-semibold rounded-[6px]">
+              <Button className="w-[84px] h-[30px] bg-[E2BC7D] text-white font-semibold rounded-[6px]">
                 Send
               </Button>
             </div>

@@ -135,7 +135,7 @@ const Blogs = () => {
                         <span className="text-[14px]">{blog.author}</span>
                       </span>
                       <span className="flex justify-end items-center gap-x-2">
-                        <img src={Date} className="w-[13px]" />
+                        <img src={Date} className="w-[13px]" alt="" />
                         <span className="text-[14px]">{blog.date}</span>
                       </span>
                     </div>
@@ -143,7 +143,7 @@ const Blogs = () => {
                       {blog.title}
                     </h2>
                     <a
-                      href="#"
+                      href="/"
                       className="flex items-center justify-end text-[#282A3A] mt-4"
                     >
                       View details{" "}
