@@ -177,8 +177,8 @@ const AboutUs = () => {
                           <span
                             className={`text-[#525252] lato-bold ${
                               about.image === People1 || about.image === People3
-                                ? "text-[18px]"
-                                : "text-[24px]"
+                                ? "text-[18px] mt-3"
+                                : "text-[24px] mt-5"
                             }`}
                           >
                             {about.name}
