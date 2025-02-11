@@ -15,7 +15,8 @@ const Footer = () => {
           <div className="w-[260px] flex flex-col justify-start items-start gap-y-3">
             <img src={Logo} alt="Eco Coco Products" className="w-[56px] mb-4" />
             <p className="text-[14px]">
-              Copyright ©{new Date().getFullYear()} Eco Coco Products. <br />
+              Copyright &copy;{new Date().getFullYear()} Eco Coco Products.{" "}
+              <br />
               All Rights Reserved
             </p>
             <div className="flex gap-3 mt-4">
