@@ -55,7 +55,7 @@ const Blogs = () => {
     arrows: false,
     appendDots: (dots) => (
       <div>
-        <ul className="slick-dots -top-[545px] absolute">{dots}</ul>
+        <ul className="slick-dots -top-[590px] absolute">{dots}</ul>
       </div>
     ),
     customPaging: () => (
@@ -139,6 +139,9 @@ const Blogs = () => {
                   <h2 className="mt-4 text-[24px] text-start text-[#282A3A]">
                     {blog.title}
                   </h2>
+                  <p className="text-end flex justify-end items-center gap-x-2 text-[#282A3A] text-[16px] mt-6">
+                    View Details <img className="w-2" src={ArrowRight} alt="" />
+                  </p>
                 </div>
               </div>
             </div>
