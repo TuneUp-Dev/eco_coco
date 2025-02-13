@@ -30,9 +30,12 @@ const Vision = () => {
             <img src={Img1} className="w-[453px]" alt="" />
             <img
               src={Icon1}
-              className="absolute top-20 left-1/2 transform -translate-x-1/2"
+              className="absolute top-16 left-1/2 transform -translate-x-1/2"
               alt=""
             />
+            <p className="kenia-normal text-[22px] absolute top-32 left-1/2 transform -translate-x-1/2">
+              Mission
+            </p>
             <p className="absolute z-10 top-40 left-1/2 transform -translate-x-1/2 text-[10px] w-[270px] text-center">
               Our mission is to provide premium coir-based products that meet
               international quality standards while ensuring sustainability and
@@ -58,9 +61,12 @@ const Vision = () => {
             <img src={Img2} className="w-[453px]" alt="" />
             <img
               src={Icon2}
-              className="absolute top-20 left-1/2 transform -translate-x-1/2"
+              className="absolute top-16 left-1/2 transform -translate-x-1/2"
               alt=""
             />
+            <p className="kenia-normal text-[22px] absolute top-32 left-1/2 transform -translate-x-1/2">
+              Vision
+            </p>
             <p className="absolute z-10 top-40 left-1/2 transform -translate-x-1/2 text-[10px] w-[270px] text-center">
               Our mission is to provide premium coir-based products that meet
               international quality standards while ensuring sustainability and
@@ -86,9 +92,12 @@ const Vision = () => {
             <img src={Img3} className="w-[453px]" alt="" />
             <img
               src={Icon3}
-              className="absolute top-20 left-1/2 transform -translate-x-1/2"
+              className="absolute top-16 left-1/2 transform -translate-x-1/2"
               alt=""
             />
+            <p className="kenia-normal text-[22px] absolute top-32 left-1/2 transform -translate-x-1/2">
+              Value
+            </p>
             <p className="absolute z-10 top-40 left-1/2 transform -translate-x-1/2 text-[10px] w-[270px] text-center">
               Our mission is to provide premium coir-based products that meet
               international quality standards while ensuring sustainability and
