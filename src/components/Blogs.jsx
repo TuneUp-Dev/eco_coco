@@ -139,7 +139,7 @@ const Blogs = () => {
                   <h2 className="mt-4 text-[24px] leading-8 poltawski-bold text-start text-[#282A3A]">
                     {blog.title}
                   </h2>
-                  <p className="text-end flex justify-end items-center gap-x-2 text-[#282A3A] text-[16px] mt-6">
+                  <p className="text-end inter-normal flex justify-end items-center gap-x-2 text-[#282A3A] text-[16px] mt-6">
                     View Details <img className="w-2" src={ArrowRight} alt="" />
                   </p>
                 </div>
