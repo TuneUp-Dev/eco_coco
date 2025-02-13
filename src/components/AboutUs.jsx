@@ -18,116 +18,121 @@ const aboutUs = [
     id: 1,
     image: People1,
     description:
-      "The Future of Coir: Sustainable Solutions for a Greener Planet",
-    name: "John Doe",
-    destination: "Feb 23, 2024",
+      "Eco Coco Products provides top-quality coir solutions that consistently meet our agricultural and industrial needs. Their coir pith and fiber are of superior quality, well-processed, and delivered on time. The team is highly responsive, ensuring a smooth purchasing experience. I highly recommend them for anyone looking for reliable coir suppliers",
+    name: "Suresh Kumar",
+    destination: "Procurement Manager",
   },
   {
     id: 2,
     image: People2,
     description:
-      "We have been sourcing coir pith blocks from Eco Coco Products for our hydroponic and gardening projects...",
-    name: "John Doe",
-    destination: "Feb 23, 2024",
+      "We have been sourcing coir pith blocks from Eco Coco Products for our hydroponic and gardening projects. Their products are eco-friendly, durable, and of premium quality. The attention to detail in packaging ensures that we receive the products in perfect condition. Looking forward to a long-term partnership with them",
+    name: "Karthi",
+    destination: "CEO",
   },
   {
     id: 3,
     image: People3,
-    description: "Coir-Based Products: A Step Towards Sustainability",
-    name: "John Doe",
-    destination: "Feb 23, 2024",
+    description:
+      "Eco Coco Products’ coir fiber and yarn have been an essential part of our production process. Their consistency in quality and commitment to sustainability make them a trusted supplier for our business. The team ensures every batch meets our requirements, and we truly appreciate their professionalism",
+    name: "Prabakaran",
+    destination: "Managing Director",
   },
   {
     id: 1,
     image: People1,
     description:
-      "The Future of Coir: Sustainable Solutions for a Greener Planet",
-    name: "John Doe",
-    destination: "Feb 23, 2024",
+      "Eco Coco Products provides top-quality coir solutions that consistently meet our agricultural and industrial needs. Their coir pith and fiber are of superior quality, well-processed, and delivered on time. The team is highly responsive, ensuring a smooth purchasing experience. I highly recommend them for anyone looking for reliable coir suppliers",
+    name: "Suresh Kumar",
+    destination: "Procurement Manager",
   },
   {
     id: 2,
     image: People2,
     description:
-      "We have been sourcing coir pith blocks from Eco Coco Products for our hydroponic and gardening projects...",
-    name: "John Doe",
-    destination: "Feb 23, 2024",
+      "We have been sourcing coir pith blocks from Eco Coco Products for our hydroponic and gardening projects. Their products are eco-friendly, durable, and of premium quality. The attention to detail in packaging ensures that we receive the products in perfect condition. Looking forward to a long-term partnership with them",
+    name: "Suresh Kumar",
+    destination: "Procurement Manager",
   },
   {
     id: 3,
     image: People3,
-    description: "Coir-Based Products: A Step Towards Sustainability",
-    name: "John Doe",
-    destination: "Feb 23, 2024",
+    description:
+      "Eco Coco Products’ coir fiber and yarn have been an essential part of our production process. Their consistency in quality and commitment to sustainability make them a trusted supplier for our business. The team ensures every batch meets our requirements, and we truly appreciate their professionalism",
+    name: "Prabakaran",
+    destination: "Managing Director",
   },
   {
     id: 1,
     image: People1,
     description:
-      "The Future of Coir: Sustainable Solutions for a Greener Planet",
-    name: "John Doe",
-    destination: "Feb 23, 2024",
+      "Eco Coco Products provides top-quality coir solutions that consistently meet our agricultural and industrial needs. Their coir pith and fiber are of superior quality, well-processed, and delivered on time. The team is highly responsive, ensuring a smooth purchasing experience. I highly recommend them for anyone looking for reliable coir suppliers",
+    name: "Suresh Kumar",
+    destination: "Procurement Manager",
   },
   {
     id: 2,
     image: People2,
     description:
-      "We have been sourcing coir pith blocks from Eco Coco Products for our hydroponic and gardening projects...",
-    name: "John Doe",
-    destination: "Feb 23, 2024",
+      "We have been sourcing coir pith blocks from Eco Coco Products for our hydroponic and gardening projects. Their products are eco-friendly, durable, and of premium quality. The attention to detail in packaging ensures that we receive the products in perfect condition. Looking forward to a long-term partnership with them",
+    name: "Suresh Kumar",
+    destination: "Procurement Manager",
   },
   {
     id: 3,
     image: People3,
-    description: "Coir-Based Products: A Step Towards Sustainability",
-    name: "John Doe",
-    destination: "Feb 23, 2024",
+    description:
+      "Eco Coco Products’ coir fiber and yarn have been an essential part of our production process. Their consistency in quality and commitment to sustainability make them a trusted supplier for our business. The team ensures every batch meets our requirements, and we truly appreciate their professionalism",
+    name: "Prabakaran",
+    destination: "Managing Director",
   },
   {
     id: 1,
     image: People1,
     description:
-      "The Future of Coir: Sustainable Solutions for a Greener Planet",
-    name: "John Doe",
-    destination: "Feb 23, 2024",
+      "Eco Coco Products provides top-quality coir solutions that consistently meet our agricultural and industrial needs. Their coir pith and fiber are of superior quality, well-processed, and delivered on time. The team is highly responsive, ensuring a smooth purchasing experience. I highly recommend them for anyone looking for reliable coir suppliers",
+    name: "Suresh Kumar",
+    destination: "Procurement Manager",
   },
   {
     id: 2,
     image: People2,
     description:
-      "We have been sourcing coir pith blocks from Eco Coco Products for our hydroponic and gardening projects...",
-    name: "John Doe",
-    destination: "Feb 23, 2024",
+      "We have been sourcing coir pith blocks from Eco Coco Products for our hydroponic and gardening projects. Their products are eco-friendly, durable, and of premium quality. The attention to detail in packaging ensures that we receive the products in perfect condition. Looking forward to a long-term partnership with them",
+    name: "Suresh Kumar",
+    destination: "Procurement Manager",
   },
   {
     id: 3,
     image: People3,
-    description: "Coir-Based Products: A Step Towards Sustainability",
-    name: "John Doe",
-    destination: "Feb 23, 2024",
+    description:
+      "Eco Coco Products’ coir fiber and yarn have been an essential part of our production process. Their consistency in quality and commitment to sustainability make them a trusted supplier for our business. The team ensures every batch meets our requirements, and we truly appreciate their professionalism",
+    name: "Prabakaran",
+    destination: "Managing Director",
   },
   {
     id: 1,
     image: People1,
     description:
-      "The Future of Coir: Sustainable Solutions for a Greener Planet",
-    name: "John Doe",
-    destination: "Feb 23, 2024",
+      "Eco Coco Products provides top-quality coir solutions that consistently meet our agricultural and industrial needs. Their coir pith and fiber are of superior quality, well-processed, and delivered on time. The team is highly responsive, ensuring a smooth purchasing experience. I highly recommend them for anyone looking for reliable coir suppliers",
+    name: "Suresh Kumar",
+    destination: "Procurement Manager",
   },
   {
     id: 2,
     image: People2,
     description:
-      "We have been sourcing coir pith blocks from Eco Coco Products for our hydroponic and gardening projects...",
-    name: "John Doe",
-    destination: "Feb 23, 2024",
+      "We have been sourcing coir pith blocks from Eco Coco Products for our hydroponic and gardening projects. Their products are eco-friendly, durable, and of premium quality. The attention to detail in packaging ensures that we receive the products in perfect condition. Looking forward to a long-term partnership with them",
+    name: "Suresh Kumar",
+    destination: "Procurement Manager",
   },
   {
     id: 3,
     image: People3,
-    description: "Coir-Based Products: A Step Towards Sustainability",
-    name: "John Doe",
-    destination: "Feb 23, 2024",
+    description:
+      "Eco Coco Products’ coir fiber and yarn have been an essential part of our production process. Their consistency in quality and commitment to sustainability make them a trusted supplier for our business. The team ensures every batch meets our requirements, and we truly appreciate their professionalism",
+    name: "Prabakaran",
+    destination: "Managing Director",
   },
 ];
 
@@ -198,7 +203,7 @@ const AboutUs = () => {
                       key={about.id}
                       className={`p-4 overflow-visible ${
                         about.image === People1 || about.image === People3
-                          ? "min-w-[300px] max-w-[300px] h-[400px] bg-contain bg-no-repeat bg-center"
+                          ? "min-w-[350px] max-w-[350px] h-[400px] bg-contain bg-no-repeat bg-center"
                           : "min-w-[440px] max-w-[440px] h-[450px] bg-contain bg-no-repeat bg-center"
                       }`}
                       style={{
@@ -218,7 +223,7 @@ const AboutUs = () => {
                         alt={about.description}
                         className={`object-cover rounded-full mx-auto ${
                           about.image === People1 || about.image === People3
-                            ? "w-[76px] h-[76px] mt-3"
+                            ? "w-[76px] h-[76px] -mt-5"
                             : "w-[105px] h-[105px] -mt-16"
                         }`}
                       />
@@ -236,7 +241,7 @@ const AboutUs = () => {
                           <span
                             className={`text-[#525252] lato-normal ${
                               about.image === People1 || about.image === People3
-                                ? "text-[12px] mt-0.5"
+                                ? "text-[12px] -mt-0.5"
                                 : "text-[18px] mt-1.5"
                             }`}
                           >
@@ -253,9 +258,11 @@ const AboutUs = () => {
                           />
                         </div>
                         <h2
-                          className={`mt-2 libre-normal text-justify text-[#525252] ${
-                            about.image === People1 || about.image === People3
-                              ? "px-10 text-[12px]"
+                          className={`mt-0 libre-normal text-justify text-[#525252] ${
+                            about.image === People1
+                              ? "pl-14 pr-10 text-[12px] leading-[16px]"
+                              : about.image === People3
+                              ? "pl-10 pr-14 text-[12px] leading-[16px]"
                               : "px-8 text-[16px]"
                           }`}
                         >

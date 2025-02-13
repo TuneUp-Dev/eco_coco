@@ -6,14 +6,14 @@ const FAQ = () => {
 
   const faqs = [
     {
-      title: "What is coir, and how is it sourced?",
-      content:
-        "Coir is a natural fiber extracted from coconut husks. It is sustainably sourced from coconut farms, ensuring eco-friendly production.",
-    },
-    {
       title: "What types of coir products do you offer?",
       content:
         "We offer a wide range of coir products, including mats, brushes, ropes, and biodegradable gardening supplies.",
+    },
+    {
+      title: "Where do you source your coir from?",
+      content:
+        "Coir is a natural fiber extracted from coconut husks. It is sustainably sourced from coconut farms, ensuring eco-friendly production.",
     },
     {
       title: "How do you ensure the quality of your products?",
@@ -70,7 +70,7 @@ const FAQ = () => {
                 className="flex justify-between items-center p-4 cursor-pointer hover:bg-gray-50 h-[78px]"
                 onClick={() => toggleFAQ(index)}
               >
-                <h3 className="text-lg font-medium">{faq.title}</h3>
+                <h3 className="text-[18px] font-bold">{faq.title}</h3>
                 <span
                   className={`text-[24px] transition-transform duration-200 ${
                     openIndex === index ? "rotate-45" : "rotate-0"
@@ -88,7 +88,9 @@ const FAQ = () => {
                     : "max-h-0 opacity-0"
                 }`}
               >
-                <p className="px-4 pb-4 text-gray-700">{faq.content}</p>
+                <p className="px-4 pb-4 text-[#3C3C43] text-[16px]">
+                  {faq.content}
+                </p>
               </div>
             </div>
           ))}
