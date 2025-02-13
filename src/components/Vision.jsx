@@ -10,6 +10,8 @@ import Symbol1 from "../assets/56.svg";
 import Symbol2 from "../assets/57.svg";
 import Symbol3 from "../assets/55.svg";
 
+import Shadow from "../assets/bottmo_shadow.svg";
+
 const Vision = () => {
   return (
     <>
@@ -44,6 +46,11 @@ const Vision = () => {
               className="absolute bottom-9 left-1/2 transform -translate-x-1/2"
               alt=""
             />
+            <img
+              src={Shadow}
+              className="absolute -bottom-5 left-1/2 transform -translate-x-1/2"
+              alt=""
+            />
           </div>
 
           {/* Second Container */}
@@ -67,6 +74,11 @@ const Vision = () => {
               className="absolute bottom-5 left-1/2 transform -translate-x-1/2"
               alt=""
             />
+            <img
+              src={Shadow}
+              className="absolute -bottom-5 left-1/2 transform -translate-x-1/2"
+              alt=""
+            />
           </div>
 
           {/* Third Container */}
@@ -88,6 +100,11 @@ const Vision = () => {
             <img
               src={Symbol3}
               className="absolute bottom-14 left-1/2 transform -translate-x-1/2"
+              alt=""
+            />
+            <img
+              src={Shadow}
+              className="absolute -bottom-5 left-1/2 transform -translate-x-1/2"
               alt=""
             />
           </div>
