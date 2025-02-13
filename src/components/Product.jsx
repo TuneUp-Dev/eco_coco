@@ -10,7 +10,7 @@ import { Button } from "@heroui/react";
 const Product = () => {
   return (
     <>
-      <div id="products" className="max-w-[1440px] mx-auto">
+      <div id="products" className="max-w-[1440px] mt-5 mx-auto">
         <h1 className="alegreya-bold text-[28px] text-center">
           Our Premium Coir Products
         </h1>
