@@ -125,9 +125,9 @@ const Blogs = () => {
                   alt={blog.title}
                   className="w-[375px] h-[320px] object-cover rounded-tr-[80px] rounded-bl-[80px]"
                 />
-                <div className="p-4">
+                <div className="py-4">
                   <div className="flex justify-between items-center text-[#282A3A] text-sm">
-                    <span className="flex items-center gap-x-2">
+                    <span className="flex items-center gap-x-2 inter-normal">
                       <img src={Profile} className="w-[13px]" alt="Profile" />
                       {blog.author}
                     </span>
@@ -136,10 +136,10 @@ const Blogs = () => {
                       {blog.date}
                     </span>
                   </div>
-                  <h2 className="mt-4 text-[24px] text-start text-[#282A3A]">
+                  <h2 className="mt-4 text-[24px] leading-8 poltawski-bold text-start text-[#282A3A]">
                     {blog.title}
                   </h2>
-                  <p className="text-end flex justify-end items-center gap-x-2 text-[#282A3A] text-[16px] mt-6">
+                  <p className="text-end inter-normal flex justify-end items-center gap-x-2 text-[#282A3A] text-[16px] mt-6">
                     View Details <img className="w-2" src={ArrowRight} alt="" />
                   </p>
                 </div>
