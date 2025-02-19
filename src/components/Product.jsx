@@ -29,7 +29,7 @@ const Product = () => {
               : "scale-100"
           }`}
         >
-          <div className="w-[222.64px] h-[319px] p-4 rounded-[34px] shadow-[0px_0px_10px_-6px_#000000] rotate-[5.59deg]">
+          <div className="w-[222.64px] h-[319px] p-4 rounded-[34px] shadow-[0px_0px_10px_-7px_#000000] rotate-[5.59deg] hover:shadow-[0px_0px_10px_-2px_#E2BC7D] hover:rotate-[-4.59deg] ease-linear duration-200">
             <h1 className="text-[22px] agbalumo-normal">Coir Pith</h1>
             <img src={Circle} className="relative" alt="" />
             <img src={Coir} className="absolute -mt-44 ml-1" alt="" />
@@ -40,7 +40,7 @@ const Product = () => {
               with our eco-friendly and sustainable coir solutions.
             </p>
           </div>
-          <div className="w-[222.64px] h-[319px] p-4 rounded-[34px] shadow-[0px_0px_10px_-6px_#000000] rotate-[-7.21deg] mt-24">
+          <div className="w-[222.64px] h-[319px] p-4 rounded-[34px] shadow-[0px_0px_10px_-7px_#000000] rotate-[-7.21deg] hover:shadow-[0px_0px_10px_-2px_#E2BC7D] hover:rotate-[0deg] ease-linear duration-200 mt-24">
             <h1 className="text-[22px] agbalumo-normal">Pith Block</h1>
             <img src={Circle} className="relative" alt="" />
             <img src={Pith} className="absolute -mt-48 -ml-3" alt="" />
@@ -51,7 +51,7 @@ const Product = () => {
               with our eco-friendly coir solutions.
             </p>
           </div>
-          <div className="w-[222.64px] h-[319px] p-4 rounded-[34px] shadow-[0px_0px_10px_-6px_#000000] rotate-[0deg]">
+          <div className="w-[222.64px] h-[319px] p-4 rounded-[34px] shadow-[0px_0px_10px_-7px_#000000] rotate-[0deg] hover:shadow-[0px_0px_10px_-2px_#E2BC7D] hover:rotate-[7.59deg] ease-linear duration-200">
             <h1 className="text-[22px] agbalumo-normal">Compost</h1>
             <img src={Circle} className="relative" alt="" />
             <img src={Compost} className="absolute -mt-48" alt="" />
@@ -62,7 +62,7 @@ const Product = () => {
               sustainable farming in every use.
             </p>
           </div>
-          <div className="w-[222.64px] h-[319px] p-4 rounded-[34px] shadow-[0px_0px_10px_-6px_#000000] rotate-[7.97deg] mt-24">
+          <div className="w-[222.64px] h-[319px] p-4 rounded-[34px] shadow-[0px_0px_10px_-7px_#000000] rotate-[7.97deg] hover:shadow-[0px_0px_10px_-2px_#E2BC7D] hover:rotate-[0deg] ease-linear duration-200 mt-24">
             <h1 className="text-[22px] agbalumo-normal">Fiber</h1>
             <img src={Circle} className="relative" alt="" />
             <img src={Fiber} className="absolute -mt-40 -ml-4" alt="" />
@@ -73,7 +73,7 @@ const Product = () => {
               durability to your products with our natural coir fiber.
             </p>
           </div>
-          <div className="w-[222.64px] h-[319px] p-4 rounded-[34px] shadow-[0px_0px_10px_-6px_#000000] rotate-[-6.81deg]">
+          <div className="w-[222.64px] h-[319px] p-4 rounded-[34px] shadow-[0px_0px_10px_-7px_#000000] rotate-[-6.81deg] hover:shadow-[0px_0px_10px_-2px_#E2BC7D] hover:rotate-[4.59deg] ease-linear duration-200">
             <h1 className="text-[22px] agbalumo-normal">Yarn</h1>
             <img src={Circle} className="relative" alt="" />
             <img src={Yarn} className="absolute -mt-48 -ml-1" alt="" />

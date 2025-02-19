@@ -67,102 +67,102 @@ const Hero = () => {
               <span className="absolute -top-3 left-0 w-full h-full">
                 <img
                   src={T1}
-                  className="absolute top-0 left-0 w-[125px]"
+                  className="absolute top-0 left-0 w-[125px] floating-image1"
                   alt=""
                 />
                 <img
                   src={Arrow_Point}
-                  className="absolute top-0 left-32 w-[150px]"
+                  className="absolute top-0 left-32 w-[150px] floating-image2"
                   alt=""
                 />
                 <img
                   src={T2}
-                  className="absolute top-5 left-72 w-[60px]"
+                  className="absolute top-5 left-72 w-[60px] floating-image3"
                   alt=""
                 />
                 <img
                   src={T3}
-                  className="absolute top-0 right-0 w-[60px]"
+                  className="absolute top-0 right-0 w-[60px] floating-image4"
                   alt=""
                 />
                 <img
                   src={T4}
-                  className="absolute top-32 right-20 w-[60px]"
+                  className="absolute top-32 right-20 w-[60px] floating-image1"
                   alt=""
                 />
                 <img
                   src={T5}
-                  className="absolute top-72 right-10 w-[143px]"
+                  className="absolute top-72 right-10 w-[143px] floating-image2"
                   alt=""
                 />
                 <img
                   src={Arrow_Point}
-                  className="absolute top-80 right-16 rotate-[120deg] w-[150px]"
+                  className="absolute top-80 right-16 rotate-[120deg] w-[150px] floating-image3"
                   alt=""
                 />
                 <img
                   src={T6}
-                  className="absolute top-[480px] right-28 w-[60px]"
+                  className="absolute top-[480px] right-28 w-[60px] floating-image4"
                   alt=""
                 />
                 <img
                   src={T7}
-                  className="absolute top-[550px] right-64 w-[60px]"
+                  className="absolute top-[550px] right-64 w-[60px] floating-image1"
                   alt=""
                 />
                 <img
                   src={T8}
-                  className="absolute top-[620px] right-24 w-[60px]"
+                  className="absolute top-[620px] right-24 w-[60px] floating-image2"
                   alt=""
                 />
                 <img
                   src={T9}
-                  className="absolute top-[720px] right-64 w-[115px]"
+                  className="absolute top-[720px] right-64 w-[115px] floating-image3"
                   alt=""
                 />
                 <img
                   src={Arrow_Point}
-                  className="absolute top-[780px] right-44 rotate-[120deg] w-[150px]"
+                  className="absolute top-[750px] right-44 rotate-[120deg] w-[150px] floating-image4"
                   alt=""
                 />
                 <img
                   src={T10}
-                  className="absolute top-[880px] right-48 w-[60px]"
+                  className="absolute top-[880px] right-48 w-[60px] floating-image1"
                   alt=""
                 />
                 <img
                   src={T11}
-                  className="absolute top-[930px] right-[380px] w-[60px]"
+                  className="absolute top-[930px] right-[380px] w-[60px] floating-image2"
                   alt=""
                 />
                 <img
                   src={T12}
-                  className="absolute top-[780px] left-10 w-[60px]"
+                  className="absolute top-[780px] left-10 w-[60px] floating-image3"
                   alt=""
                 />
                 <img
                   src={T13}
-                  className="absolute top-[630px] -left-32 w-[60px]"
+                  className="absolute top-[630px] -left-32 w-[60px] floating-image4"
                   alt=""
                 />
                 <img
                   src={T14}
-                  className="absolute top-[510px] -left-24 w-[60px]"
+                  className="absolute top-[510px] -left-24 w-[60px] floating-image1"
                   alt=""
                 />
                 <img
                   src={T15}
-                  className="absolute top-[560px] -left-56 w-[60px]"
+                  className="absolute top-[560px] -left-56 w-[60px] floating-image2"
                   alt=""
                 />
                 <img
                   src={Arrow_Point}
-                  className="absolute top-[360px] -left-64 rotate-[65deg] w-[150px] scale-y-[-1]"
+                  className="absolute top-[360px] -left-64 rotate-[65deg] w-[150px] scale-y-[-1] floating-image4"
                   alt=""
                 />
                 <img
                   src={T16}
-                  className="absolute top-[320px] -left-72 w-[143px]"
+                  className="absolute top-[320px] -left-72 w-[143px] floating-image4"
                   alt=""
                 />
               </span>

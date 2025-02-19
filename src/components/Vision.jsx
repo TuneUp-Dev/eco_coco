@@ -26,7 +26,7 @@ const Vision = () => {
         {/* Containers */}
         <div className="mt-14 grid grid-cols-3 mx-auto gap-x-6">
           {/* First Container */}
-          <div className="relative">
+          <div className="relative group">
             <img src={Img1} className="w-[453px]" alt="" />
             <img
               src={Icon1}
@@ -51,13 +51,13 @@ const Vision = () => {
             />
             <img
               src={Shadow}
-              className="absolute -bottom-5 left-1/2 transform -translate-x-1/2"
+              className="absolute -bottom-5 left-1/2 transform -translate-x-1/2 group-hover:scale-[1.3] transition-all ease-linear duration-200 opacity-70 group-hover:opacity-100"
               alt=""
             />
           </div>
 
           {/* Second Container */}
-          <div className="relative">
+          <div className="relative group">
             <img src={Img2} className="w-[453px]" alt="" />
             <img
               src={Icon2}
@@ -82,13 +82,13 @@ const Vision = () => {
             />
             <img
               src={Shadow}
-              className="absolute -bottom-5 left-1/2 transform -translate-x-1/2"
+              className="absolute -bottom-5 left-1/2 transform -translate-x-1/2 group-hover:scale-[1.3] transition-all ease-linear duration-200 opacity-70 group-hover:opacity-100"
               alt=""
             />
           </div>
 
           {/* Third Container */}
-          <div className="relative">
+          <div className="relative group">
             <img src={Img3} className="w-[453px]" alt="" />
             <img
               src={Icon3}
@@ -113,7 +113,7 @@ const Vision = () => {
             />
             <img
               src={Shadow}
-              className="absolute -bottom-5 left-1/2 transform -translate-x-1/2"
+              className="absolute -bottom-5 left-1/2 transform -translate-x-1/2 group-hover:scale-[1.3] transition-all ease-linear duration-200 opacity-70 group-hover:opacity-100"
               alt=""
             />
           </div>
