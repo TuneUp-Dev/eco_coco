@@ -216,7 +216,7 @@ code {
     transform: translateY(0);
   }
   50% {
-    transform: translateY(-5px);
+    transform: translateY(7px);
   }
 }
 
@@ -236,7 +236,7 @@ code {
     transform: translateY(0);
   }
   50% {
-    transform: translateY(-6px);
+    transform: translateY(4px);
   }
 }
 

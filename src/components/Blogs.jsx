@@ -119,7 +119,7 @@ const Blogs = () => {
         <Slider ref={sliderRef} {...settings}>
           {blogs.map((blog) => (
             <div key={blog.id} className="py-5">
-              <div className="w-[400px] rounded-[20px] px-4 pt-4 hover:shadow-md mx-auto transform transition-all ease-linear duration-300">
+              <div className="w-[400px] rounded-[20px] px-4 pt-4 hover:shadow-lg hover:scale-[1.02] mx-auto transform transition-all ease-linear duration-300">
                 <img
                   src={blog.image}
                   alt={blog.title}
