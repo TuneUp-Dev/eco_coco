@@ -163,7 +163,7 @@ const AboutUs = () => {
   };
 
   return (
-    <div className="mt-24 text-center relative">
+    <div id="testimonials" className="pt-24 text-center relative">
       {/* Custom Navigation */}
       <div className="flex justify-center items-center gap-x-64">
         <Button
