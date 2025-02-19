@@ -7,6 +7,13 @@ import Youtube from "../assets/youtube.svg";
 import { Button } from "@heroui/react";
 
 const Footer = () => {
+  const scrollToSection = (id) => {
+    const element = document.getElementById(id);
+    if (element) {
+      element.scrollIntoView({ behavior: "smooth", block: "start" });
+    }
+  };
+
   return (
     <>
       <footer className="bg-black text-white py-10 px-6 md:px-20">
@@ -63,24 +70,36 @@ const Footer = () => {
             <h3 className="font-semibold text-lg">Explore</h3>
             <ul className="mt-4 space-y-2">
               <li>
-                <a href="/" className="text-white hover:text-neutral-300">
+                <p
+                  onClick={() => scrollToSection("about")}
+                  className="text-white hover:text-neutral-300 cursor-pointer"
+                >
                   About Us
-                </a>
+                </p>
               </li>
               <li>
-                <a href="/" className="text-white hover:text-neutral-300">
+                <p
+                  onClick={() => scrollToSection("products")}
+                  className="text-white hover:text-neutral-300 cursor-pointer"
+                >
                   Products
-                </a>
+                </p>
               </li>
               <li>
-                <a href="/" className="text-white hover:text-neutral-300">
+                <p
+                  onClick={() => scrollToSection("testimonials")}
+                  className="text-white hover:text-neutral-300 cursor-pointer"
+                >
                   Testimonial
-                </a>
+                </p>
               </li>
               <li>
-                <a href="/" className="text-white hover:text-neutral-300">
+                <p
+                  onClick={() => scrollToSection("faq")}
+                  className="text-white hover:text-neutral-300 cursor-pointer"
+                >
                   FAQ
-                </a>
+                </p>
               </li>
             </ul>
           </div>
