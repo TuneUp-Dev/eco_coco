@@ -41,14 +41,14 @@ const ContactUs = () => {
                   Email Now
                 </p>
                 <p className="text-[#666666] text-[16px]">
-                  info@ecocooproducts.com
+                  info@ecococoproduct.com
                 </p>
               </div>
             </div>
 
             {/* Office Address */}
             <div className="p-4 bg-[#FBFBFB] rounded-[12px] border border-[#F3F3F3] flex items-center gap-x-6 shadow-sm">
-              <span className="bg-[#E2BC7D] rounded-full flex justify-center items-center w-[54px] h-[54px]">
+              <span className="bg-[#E2BC7D] rounded-full flex justify-center items-center min-w-[54px] h-[54px]">
                 <img src={Office} className="w-[24px]" alt="Office Icon" />
               </span>
               <div>
@@ -64,7 +64,7 @@ const ContactUs = () => {
 
             {/* Unit Address */}
             <div className="p-4 bg-[#FBFBFB] rounded-[12px] border border-[#F3F3F3] flex items-center gap-x-6 shadow-sm">
-              <span className="bg-[#E2BC7D] rounded-full flex justify-center items-center w-[54px] h-[54px]">
+              <span className="bg-[#E2BC7D] rounded-full flex justify-center items-center min-w-[54px] h-[54px]">
                 <img src={Factory} className="w-[24px]" alt="Factory Icon" />
               </span>
               <div>

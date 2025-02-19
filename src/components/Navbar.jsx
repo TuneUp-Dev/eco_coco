@@ -1,6 +1,6 @@
 import { Button } from "@heroui/react";
 import Logo from "../assets/Logo.svg";
-import Search from "../assets/search.svg";
+// import Search from "../assets/search.svg";
 
 const Navbar = () => {
   const scrollToSection = (id) => {
@@ -53,12 +53,15 @@ const Navbar = () => {
         </span>
 
         <span className="flex justify-end items-center gap-x-4">
-          <Button className="border border-black text-[#AD5C22] text-[11px] w-[100px] h-[30px] rounded-[4px]">
+          <Button
+            onClick={() => scrollToSection("contact")}
+            className="border border-black text-[#AD5C22] text-[11px] w-[100px] h-[30px] rounded-[4px]"
+          >
             Contact Us
           </Button>
-          <Button className="w-[40px] h-[40px] rounded-full overflow-hidden flex justify-center items-center">
+          {/* <Button className="w-[40px] h-[40px] rounded-full overflow-hidden flex justify-center items-center">
             <img src={Search} className="min-w-[15px]" alt="Search Icon" />
-          </Button>
+          </Button> */}
         </span>
       </div>
     </>

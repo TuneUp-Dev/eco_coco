@@ -47,7 +47,7 @@ const FAQ = () => {
   };
 
   return (
-    <div className="mt-18 max-w-[1440px] mx-auto">
+    <div id="faq" className="pt-18 max-w-[1440px] mx-auto">
       <h1 className="agbalumo-normal text-[29px] text-center text-[#525252]">
         Frequently Asked Questions
       </h1>
