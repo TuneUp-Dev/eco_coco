@@ -53,7 +53,7 @@ const Navbar = () => {
         </span>
 
         <span className="flex justify-end items-center gap-x-4">
-          <Button className="border border-black text-[#AD5C22] text-[11px] w-[96px] h-[27px] rounded-[4px]">
+          <Button className="border border-black text-[#AD5C22] text-[11px] w-[100px] h-[30px] rounded-[4px]">
             Contact Us
           </Button>
           <Button className="w-[40px] h-[40px] rounded-full overflow-hidden flex justify-center items-center">
