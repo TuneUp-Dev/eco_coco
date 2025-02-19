@@ -55,7 +55,7 @@ const Blogs = () => {
     arrows: false,
     appendDots: (dots) => (
       <div>
-        <ul className="slick-dots -top-[590px] absolute">{dots}</ul>
+        <ul className="slick-dots h-3 -top-[610px] absolute">{dots}</ul>
       </div>
     ),
     customPaging: () => (
@@ -115,11 +115,11 @@ const Blogs = () => {
       </div>
 
       {/* Blog Cards Carousel */}
-      <div className="mx-auto w-[1280px] mt-20 relative">
+      <div className="mx-auto w-[1280px] py-4 mt-10 z-50 relative">
         <Slider ref={sliderRef} {...settings}>
           {blogs.map((blog) => (
-            <div key={blog.id} className="px-2">
-              <div className="w-[375px] mx-auto">
+            <div key={blog.id} className="py-5">
+              <div className="w-[400px] rounded-[20px] px-4 pt-4 hover:shadow-md mx-auto transform transition-all ease-linear duration-300">
                 <img
                   src={blog.image}
                   alt={blog.title}
@@ -139,9 +139,12 @@ const Blogs = () => {
                   <h2 className="mt-4 text-[24px] leading-8 poltawski-bold text-start text-[#282A3A]">
                     {blog.title}
                   </h2>
-                  <p className="text-end inter-normal flex justify-end items-center gap-x-2 text-[#282A3A] text-[16px] mt-6">
-                    View Details <img className="w-2" src={ArrowRight} alt="" />
-                  </p>
+                  <div className="flex justify-end items-center">
+                    <Button className="text-center rounded-2xl px-4 py-2 inter-normal flex justify-center items-center gap-x-2 text-[#282A3A] text-[16px] mt-6">
+                      View Details{" "}
+                      <img className="w-2" src={ArrowRight} alt="" />
+                    </Button>
+                  </div>
                 </div>
               </div>
             </div>

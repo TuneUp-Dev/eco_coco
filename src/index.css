@@ -208,3 +208,57 @@ code {
   transform: scale(1.1);
   transition: all 0.3s ease-in-out;
 }
+
+/* Hero Section Floating Animation */
+@keyframes float1 {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-5px);
+  }
+}
+
+@keyframes float2 {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-7px);
+  }
+}
+
+@keyframes float3 {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-6px);
+  }
+}
+
+@keyframes float4 {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-4px);
+  }
+}
+
+.floating-image1 {
+  animation: float1 3s ease-in-out infinite;
+}
+.floating-image2 {
+  animation: float2 4s ease-in-out infinite;
+}
+.floating-image3 {
+  animation: float3 5s ease-in-out infinite;
+}
+.floating-image4 {
+  animation: float4 6s ease-in-out infinite;
+}
