@@ -18,6 +18,7 @@ const blogs = [
     title: "The Future of Coir: Sustainable Solutions for a Greener Planet",
     author: "John Doe",
     date: "Feb 23, 2024",
+    link: "https://medium.com/@ecococoproduct/the-future-of-coir-sustainable-solutions-for-a-greener-planet-92fb9aa8f6ef",
   },
   {
     id: 2,
@@ -25,6 +26,7 @@ const blogs = [
     title: "Eco-Friendly Farming: The Role of Coir Pith in Agriculture",
     author: "John Doe",
     date: "Feb 23, 2024",
+    link: "https://medium.com/@ecococoproduct/eco-friendly-farming-the-role-of-coir-pith-in-agriculture-ae496a2f3473",
   },
   {
     id: 3,
@@ -32,6 +34,7 @@ const blogs = [
     title: "Coir-Based Products: A Step Towards Sustainability",
     author: "John Doe",
     date: "Feb 23, 2024",
+    link: "https://medium.com/@ecococoproduct/coir-based-products-a-step-towards-sustainability-d32ad32d3f3a",
   },
 ];
 
@@ -140,10 +143,16 @@ const Blogs = () => {
                     {blog.title}
                   </h2>
                   <div className="flex justify-end items-center">
-                    <Button className="text-center rounded-2xl px-4 py-2 inter-normal flex justify-center items-center gap-x-2 text-[#282A3A] text-[16px] mt-6">
-                      View Details{" "}
-                      <img className="w-2" src={ArrowRight} alt="" />
-                    </Button>
+                    <a
+                      href={blog.link}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <Button className="text-center rounded-2xl px-4 py-2 inter-normal flex justify-center items-center gap-x-2 text-[#282A3A] text-[16px] mt-6">
+                        View Details{" "}
+                        <img className="w-2" src={ArrowRight} alt="" />
+                      </Button>
+                    </a>
                   </div>
                 </div>
               </div>
