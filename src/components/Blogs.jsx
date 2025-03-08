@@ -9,7 +9,7 @@ import ArrowRight from "../assets/arrow2.svg";
 import Blog1 from "../assets/blog1.svg";
 import Blog2 from "../assets/blog2.svg";
 import Blog3 from "../assets/blog3.svg";
-import { Button } from "@heroui/react";
+import { Button, Link } from "@heroui/react";
 
 const blogs = [
   {
@@ -143,16 +143,16 @@ const Blogs = () => {
                     {blog.title}
                   </h2>
                   <div className="flex justify-end items-center">
-                    <a
+                    <Link
                       href={blog.link}
                       target="_blank"
-                      rel="noopener noreferrer"
+                      className="rounded-2xl flex justify-center items-center mt-6"
                     >
-                      <Button className="text-center rounded-2xl px-4 py-2 inter-normal flex justify-center items-center gap-x-2 text-[#282A3A] text-[16px] mt-6">
+                      <Button className="text-center rounded-2xl px-4 py-2 inter-normal flex justify-center items-center gap-x-2 text-[#282A3A] text-[16px]">
                         View Details{" "}
                         <img className="w-2" src={ArrowRight} alt="" />
                       </Button>
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
