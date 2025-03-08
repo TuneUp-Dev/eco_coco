@@ -44,7 +44,7 @@ const Footer = () => {
 
     try {
       const response = await axios.post(
-        "http://localhost:5002/send-newsletter",
+        "https://eco-coco-backend.vercel.app/send-newsletter",
         formData
       );
 
