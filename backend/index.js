@@ -6,10 +6,23 @@ const dotenv = require("dotenv");
 dotenv.config();
 
 const app = express();
-const PORT = process.env.PORT || 5002;
+const PORT = 5002;
 
 app.use(express.json());
-app.use(cors());
+
+const allowedOrigins = [
+  "https://ecococoproduct.com",
+  "https://www.ecococoproduct.com",
+  "http://localhost:3000",
+];
+
+app.use(
+  cors({
+    origin: allowedOrigins,
+    methods: ["GET", "POST"],
+    allowedHeaders: ["Content-Type"],
+  })
+);
 
 // Validate email format
 const validateEmail = (email) => {
