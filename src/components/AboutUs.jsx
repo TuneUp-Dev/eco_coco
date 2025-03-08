@@ -27,7 +27,7 @@ const aboutUs = [
     image: People2,
     description:
       "We have been sourcing coir pith blocks from Eco Coco Products for our hydroponic and gardening projects. Their products are eco-friendly, durable, and of premium quality. The attention to detail in packaging ensures that we receive the products in perfect condition. Looking forward to a long-term partnership with them",
-    name: "Karthi",
+    name: "Deepak Raja",
     destination: "CEO",
   },
   {
@@ -51,8 +51,8 @@ const aboutUs = [
     image: People2,
     description:
       "We have been sourcing coir pith blocks from Eco Coco Products for our hydroponic and gardening projects. Their products are eco-friendly, durable, and of premium quality. The attention to detail in packaging ensures that we receive the products in perfect condition. Looking forward to a long-term partnership with them",
-    name: "Suresh Kumar",
-    destination: "Procurement Manager",
+    name: "Deepak Raja",
+    destination: "CEO",
   },
   {
     id: 3,
@@ -75,8 +75,8 @@ const aboutUs = [
     image: People2,
     description:
       "We have been sourcing coir pith blocks from Eco Coco Products for our hydroponic and gardening projects. Their products are eco-friendly, durable, and of premium quality. The attention to detail in packaging ensures that we receive the products in perfect condition. Looking forward to a long-term partnership with them",
-    name: "Suresh Kumar",
-    destination: "Procurement Manager",
+    name: "Deepak Raja",
+    destination: "CEO",
   },
   {
     id: 3,
@@ -99,8 +99,8 @@ const aboutUs = [
     image: People2,
     description:
       "We have been sourcing coir pith blocks from Eco Coco Products for our hydroponic and gardening projects. Their products are eco-friendly, durable, and of premium quality. The attention to detail in packaging ensures that we receive the products in perfect condition. Looking forward to a long-term partnership with them",
-    name: "Suresh Kumar",
-    destination: "Procurement Manager",
+    name: "Deepak Raja",
+    destination: "CEO",
   },
   {
     id: 3,
@@ -123,8 +123,8 @@ const aboutUs = [
     image: People2,
     description:
       "We have been sourcing coir pith blocks from Eco Coco Products for our hydroponic and gardening projects. Their products are eco-friendly, durable, and of premium quality. The attention to detail in packaging ensures that we receive the products in perfect condition. Looking forward to a long-term partnership with them",
-    name: "Suresh Kumar",
-    destination: "Procurement Manager",
+    name: "Deepak Raja",
+    destination: "CEO",
   },
   {
     id: 3,
