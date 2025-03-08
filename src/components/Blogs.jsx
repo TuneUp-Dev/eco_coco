@@ -17,7 +17,7 @@ const blogs = [
     image: Blog1,
     title: "The Future of Coir: Sustainable Solutions for a Greener Planet",
     author: "Eco Coco",
-    date: "Feb 23, 2024",
+    date: "Mar 07, 2025",
     link: "https://medium.com/@ecococoproduct/the-future-of-coir-sustainable-solutions-for-a-greener-planet-92fb9aa8f6ef",
   },
   {
@@ -25,7 +25,7 @@ const blogs = [
     image: Blog2,
     title: "Eco-Friendly Farming: The Role of Coir Pith in Agriculture",
     author: "Eco Coco",
-    date: "Feb 23, 2024",
+    date: "Mar 07, 2025",
     link: "https://medium.com/@ecococoproduct/eco-friendly-farming-the-role-of-coir-pith-in-agriculture-ae496a2f3473",
   },
   {
@@ -33,7 +33,7 @@ const blogs = [
     image: Blog3,
     title: "Coir-Based Products: A Step Towards Sustainability",
     author: "Eco Coco",
-    date: "Feb 23, 2024",
+    date: "Mar 07, 2025",
     link: "https://medium.com/@ecococoproduct/coir-based-products-a-step-towards-sustainability-d32ad32d3f3a",
   },
 ];
