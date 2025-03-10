@@ -86,7 +86,7 @@ const Product = () => {
         </div>
 
         {/* Explore Button */}
-        <a href="https://medium.com/@ecococoproduct/eco-coco-products-sustainable-coir-solutions-for-a-greener-future-5ff431a7957f">
+        <a target="_blank" href="https://medium.com/@ecococoproduct/eco-coco-products-sustainable-coir-solutions-for-a-greener-future-5ff431a7957f">
         <Button className="alata-normal w-[226px] h-[57px] mt-20 mx-auto bg-transparent border-[1px] border-[#E2BC7D] text-[15px] flex justify-between gap-x-4 items-center p-1 pl-4 rounded-[143px]">
           Explore Our Products
           <span className="rounded-full w-[48px] h-[48px] flex justify-center items-center bg-[#E2BC7D]">
