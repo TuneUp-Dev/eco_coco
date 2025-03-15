@@ -11,9 +11,5 @@
       "src": "/(.*)",
       "dest": "index.js"
     }
-  ],
-  "env": {
-    "EMAIL_USER": "srinisvfb1018@gmail.com",
-    "EMAIL_PASS": "pvvjcpzthpwmlxby"
-  }
+  ]
 }
