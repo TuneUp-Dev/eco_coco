@@ -72,9 +72,8 @@ app.post("/send-mail", async (req, res) => {
   }
 
   // Send email
-  const emailText = `Name: ${name}\nEmail: ${email}\nMessage: ${message}`;
+const emailText = `Name: ${name}\nEmail: ${email}\nMessage: ${message}`;
   const result = await sendEmail(
-    email,
     "New Contact Form Submission",
     emailText
   );
@@ -103,7 +102,6 @@ app.post("/send-newsletter", async (req, res) => {
   // Send email
   const emailText = `Email: ${email}`;
   const result = await sendEmail(
-    email,
     "New Newsletter Subscription",
     emailText
   );
