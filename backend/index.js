@@ -43,7 +43,7 @@ const transporter = nodemailer.createTransport({
 const sendEmail = async (subject, text) => {
   const mailOptions = {
     from: process.env.EMAIL_USER,
-    to: "srinisvfb1018@gmail.com",
+    to: "info@ecococoproduct.com",
     subject,
     text,
   };
