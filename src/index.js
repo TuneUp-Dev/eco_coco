@@ -6,7 +6,7 @@ import { HeroUIProvider } from "@heroui/react";
 
 import ReactGA from "react-ga4";
 
-ReactGA.initialize("G-P0TPPHQK1C");
+ReactGA.initialize("G-H3TY81GEQT");
 ReactGA.send("pageview");
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
