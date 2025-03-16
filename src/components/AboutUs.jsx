@@ -167,7 +167,7 @@ const AboutUs = () => {
       {/* Custom Navigation */}
       <div className="flex justify-center items-center gap-x-64">
         <Button
-          onClick={handlePrev}
+          onPress={handlePrev}
           className="w-[50px] h-[50px] flex justify-center items-center rounded-full"
         >
           <img
@@ -180,7 +180,7 @@ const AboutUs = () => {
           What Our Clients Say About Us
         </h1>
         <Button
-          onClick={handleNext}
+          onPress={handleNext}
           className="w-[50px] h-[50px] flex justify-center items-center rounded-full"
         >
           <img
