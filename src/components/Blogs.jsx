@@ -90,7 +90,7 @@ const Blogs = () => {
       {/* Custom Navigation */}
       <div className="flex justify-center items-center gap-x-64">
         <Button
-          onClick={handlePrev}
+          onPress={handlePrev}
           className="w-[50px] h-[50px] flex justify-center items-center rounded-full"
         >
           <img
@@ -106,7 +106,7 @@ const Blogs = () => {
           </h1>
         </div>
         <Button
-          onClick={handleNext}
+          onPress={handleNext}
           className="w-[50px] h-[50px] flex justify-center items-center rounded-full"
         >
           <img

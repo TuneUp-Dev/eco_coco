@@ -54,7 +54,7 @@ const Navbar = () => {
 
         <span className="flex justify-end items-center gap-x-4">
           <Button
-            onClick={() => scrollToSection("contact")}
+            onPress={() => scrollToSection("contact")}
             className="border border-black text-[#AD5C22] text-[11px] w-[100px] h-[30px] rounded-[4px]"
           >
             Contact Us
